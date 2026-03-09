@@ -16,11 +16,11 @@ A hands-on learning repo for ROS 2 Nav2 — building production-grade C++ plugin
 - Function:
 
 ## Setup
-\```bash
+```bash
 # dependencies
 # build command
 # source command
-\```
+```
 
 ## Environment
 - ROS 2 Jazzy
