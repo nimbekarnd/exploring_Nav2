@@ -1,0 +1,9 @@
+<library path="nav2_custom_costmap_plugin">
+    <class name="nav2_custom_costmap_plugin/CustomInflationLayer"
+            type="nav2_custom_costmap_plugin::CustomInflationLayer"
+            base_class_type="nav2_costmap_2d::Layer">
+        <description>
+        Custom inflation layer with exponential decay cost kernel.
+        </description>
+    </class>
+</library>

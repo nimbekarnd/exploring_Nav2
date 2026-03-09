@@ -1,0 +1,72 @@
+[0.009s] Invoking command in '/home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/build/nav2_custom_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin -DCMAKE_INSTALL_PREFIX=/home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin
+[0.074s] -- The C compiler identification is GNU 13.3.0
+[0.124s] -- The CXX compiler identification is GNU 13.3.0
+[0.139s] -- Detecting C compiler ABI info
+[0.221s] -- Detecting C compiler ABI info - done
+[0.226s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.227s] -- Detecting C compile features
+[0.228s] -- Detecting C compile features - done
+[0.238s] -- Detecting CXX compiler ABI info
+[0.323s] -- Detecting CXX compiler ABI info - done
+[0.328s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.328s] -- Detecting CXX compile features
+[0.328s] -- Detecting CXX compile features - done
+[0.333s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.446s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.544s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.586s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.601s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.617s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.634s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.697s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.700s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.786s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.802s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.824s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.884s] -- Found nav2_costmap_2d: 1.3.10 (/opt/ros/jazzy/share/nav2_costmap_2d/cmake)
+[1.166s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.167s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.167s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.292s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.372s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.372s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/include>
+[1.372s] -- Configured cppcheck exclude dirs and/or files: 
+[1.374s] -- Added test 'lint_cmake' to check CMake code style
+[1.379s] -- Added test 'uncrustify' to check C / C++ code style
+[1.379s] -- Configured uncrustify additional arguments: 
+[1.379s] -- Added test 'xmllint' to check XML markup files
+[1.381s] -- Configuring done (1.4s)
+[1.394s] -- Generating done (0.0s)
+[1.397s] -- Build files have been written to: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/build/nav2_custom_costmap_plugin
+[1.409s] Invoked command in '/home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/build/nav2_custom_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin -DCMAKE_INSTALL_PREFIX=/home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin
+[1.411s] Invoking command in '/home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/build/nav2_custom_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/build/nav2_custom_costmap_plugin -- -j16 -l16
+[1.460s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_custom_costmap_plugin.dir/src/custom_inflation_layer.cpp.o[0m
+[3.731s] [100%] [32m[1mLinking CXX shared library libnav2_custom_costmap_plugin.so[0m
+[3.912s] [100%] Built target nav2_custom_costmap_plugin
+[3.923s] Invoked command in '/home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/build/nav2_custom_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/build/nav2_custom_costmap_plugin -- -j16 -l16
+[3.932s] Invoking command in '/home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/build/nav2_custom_costmap_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/build/nav2_custom_costmap_plugin
+[3.939s] -- Install configuration: ""
+[3.939s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/costmap_plugins.xml
+[3.939s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/lib/libnav2_custom_costmap_plugin.so
+[3.939s] -- Set non-toolchain portion of runtime path of "/home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/lib/libnav2_custom_costmap_plugin.so" to ""
+[3.939s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/include/
+[3.940s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/include//nav2_custom_costmap_plugin
+[3.940s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/include//nav2_custom_costmap_plugin/custom_inflation_layer.hpp
+[3.940s] -- Up-to-date: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/costmap_plugins.xml
+[3.940s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_custom_costmap_plugin
+[3.940s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_custom_costmap_plugin
+[3.940s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/environment/ament_prefix_path.sh
+[3.940s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/environment/ament_prefix_path.dsv
+[3.940s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/environment/path.sh
+[3.940s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/environment/path.dsv
+[3.940s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/local_setup.bash
+[3.940s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/local_setup.sh
+[3.941s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/local_setup.zsh
+[3.941s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/local_setup.dsv
+[3.941s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/package.dsv
+[3.941s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/ament_index/resource_index/packages/nav2_custom_costmap_plugin
+[3.941s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_custom_costmap_plugin
+[3.941s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/cmake/nav2_custom_costmap_pluginConfig.cmake
+[3.941s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/cmake/nav2_custom_costmap_pluginConfig-version.cmake
+[3.941s] -- Installing: /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/install/nav2_custom_costmap_plugin/share/nav2_custom_costmap_plugin/package.xml
+[3.943s] Invoked command in '/home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/build/nav2_custom_costmap_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/nupur/Documents/projects/git/exploring_Nav2/src/nav2_custom_costmap_plugin/build/nav2_custom_costmap_plugin
